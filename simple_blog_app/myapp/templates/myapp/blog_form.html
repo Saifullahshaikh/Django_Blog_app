@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% if form.instance.pk %}Edit{% else %}Create{% endif %} Blog Post</title>
+</head>
+<body>
+    <h1>{% if form.instance.pk %}Edit{% else %}Create{% endif %} Blog Post</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">{% if form.instance.pk %}Update{% else %}Create{% endif %}</button>
+    </form>
+    <a href="{% url 'blog_list' %}">Back to Blog List</a>
+</body>
+</html>
