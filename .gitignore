@@ -1,0 +1,80 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pypackages__/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.coverage
+*.cover
+.coverage.*
+.tox/
+.nox/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.data
+*.dat
+*.dir
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.scrapy
+docs/_build/
+target/
+
+# Database
+*.db
+*.sqlite3
+
+# Static files
+staticfiles/
+media/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.ico
+
+# Virtual Environment
+blogappenv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+.history/
+
+# pyenv
+.python-version
+
+# macOS
+.DS_Store
